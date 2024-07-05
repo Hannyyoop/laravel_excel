@@ -19,7 +19,3 @@ Route::delete('user/{id}', [UserController::class, 'destroy'])->name('user.destr
 
 
 
-// testing
-Route::get('/testing', function() {
-    dd('Hello World Testing');
-});
